@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jaiderbr</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
 
@@ -19,14 +20,81 @@
 
     <nav id="menu">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a id="menuId1" href="#Home">Home</a></li>
+            <li><a id="menuId2" href="#About">About</a></li>
+            <li><a id="menuId3" href="#Contact">Contact</a></li>
         </ul>
     </nav>
 
+    <section id="Home">
+        <div class="home-content">
+            <h1>Hola, soy <span class="highlight">Jaider Bautista</span></h1>
+            <h2>Estudiante de Ingeniería de Sistemas</h2>
+            <p>
+                Apasionado por la <strong>programación</strong>,
+                la <strong>optimización de algoritmos</strong>
+                y la <strong>robótica autónoma</strong>.
+            </p>
+            <a href="#About" class="btn-home"> Sobre mí</a>
+        </div>
+    </section>
 
-    <div id="particles-js"></div>
+
+
+    <section id="About">
+        <div class="about-card">
+            <h3>Sobre mí</h3>
+            <p id="text">
+                Soy Jaider Bautista, estudiante de Ingeniería de Sistemas en la Universidad de la Amazonia.
+                Tengo experiencia en programación y optimización de algoritmos, con participación en maratones
+                de programación a nivel regional y nacional.
+            </p>
+            <img src="img/jaider img about.jpeg" alt="Jaider img">
+        </div>
+
+        <div class="about-card">
+            <h3>Intereses</h3>
+            <p id="text">
+                Me apasiona la programación, la robótica autónoma y la optimización de algoritmos.
+                Disfruto resolver problemas complejos y aprender nuevas tecnologías.
+                Actualmente, estoy explorando el campo de la inteligencia artificial y su aplicación en la robótica.
+            </p>
+            <img style="align-self: flex-end;" src="img/jaider img about.jpeg" alt="Jaider img">
+        </div>
+
+        <div class="about-card">
+            <h3>Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-card"><i class="fa-solid fa-code"></i> <span>Python, C++ y Java</span></div>
+                <div class="skill-card"><i class="fa-solid fa-microchip"></i> <span>Arduino</span></div>
+                <div class="skill-card"><i class="fa-solid fa-robot"></i> <span>Robótica</span></div>
+                <div class="skill-card"><i class="fa-solid fa-cube"></i> <span>Diseño y modelado 3D</span></div>
+                <div class="skill-card"><i class="fa-solid fa-chess-knight"></i> <span>Algoritmos competitivos</span>
+                </div>
+                <div class="skill-card"><i class="fa-solid fa-dna"></i> <span>Metaheurísticas</span></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer id="Contact">
+        <h2>Contact</h2>
+        <ul>
+            <a href="https://github.com/Jaiderbr">
+                <img src="img/github.png" alt="github/img">
+            </a>
+            <a href="https://codeforces.com/profile/Jaiderbr">
+                <img src="img/codeforces.png" alt="codeforces-logo">
+            </a>
+            <a href="#">
+                <img src="img/linkedin.png" alt="linkedin-logo">
+            </a>
+        </ul>
+    </footer>
+
+
+    <!-- <div id="particles-js"></div> -->
 
 
 
