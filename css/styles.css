@@ -20,13 +20,11 @@
     --light-text: #f5f5f5;
 }
 
-
 body {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(160deg, #121212, var(--gris-carbon), var(--rojo-vino));
     color: var(--blanco-humo);
-
 }
 
 header {
@@ -43,13 +41,11 @@ header {
     z-index: 1001;
     gap: 1rem;
     padding-right: 3rem;
-
 }
 
 header h1 {
     color: var(--dorado);
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.918);
-
 }
 
 header img {
@@ -84,7 +80,6 @@ header img {
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1001;
-
 }
 
 #menu ul {
@@ -117,7 +112,6 @@ header img {
     background-color: var(--rojo-intenso);
     border-radius: 10px;
     transform: scale(1.1);
-
 }
 
 #menu ul li a i {
@@ -237,7 +231,6 @@ header img {
     gap: 1px;
     padding: 1px;
     scroll-margin-top: 80px;
-
 }
 
 .about-card img {
@@ -481,7 +474,6 @@ footer p {
     line-height: 1.6;
     color: var(--blanco-humo);
     padding: 15px;
-    text-align: justify;
 }
 
 footer ul {
@@ -556,7 +548,6 @@ footer ul li:hover {
         border-radius: 8px;
     }
 
-
     #menu a:hover {
         background: var(--rojo-intenso);
         border-radius: 8px;
@@ -626,7 +617,4 @@ footer ul li:hover {
     footer .footer-icons {
         grid-area: redes;
     }
-
-
-
 }
