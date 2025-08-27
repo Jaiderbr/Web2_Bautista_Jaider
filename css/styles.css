@@ -467,6 +467,7 @@ footer {
     gap: 1rem;
     color: var(--rojo-intenso);
     flex-wrap: wrap;
+    scroll-margin-top: 80px;
 }
 
 footer p {
