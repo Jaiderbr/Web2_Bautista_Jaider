@@ -20,10 +20,11 @@
     --light-text: #f5f5f5;
 }
 
+
 body {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(160deg, #121212, var(--gris-carbon), var(--rojo-vino));
+    background: linear-gradient(160deg, var(--bg-darker), var(--gris-carbon), var(--rojo-vino));
     color: var(--blanco-humo);
 }
 
@@ -157,6 +158,7 @@ header img {
     color: var(--blanco-humo);
     max-width: 800px;
     padding: 2rem;
+
 }
 
 .home-content h1 {
@@ -173,6 +175,7 @@ header img {
     margin-bottom: 1rem;
     color: var(--blanco-humo);
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+
 }
 
 .home-content p {
@@ -235,7 +238,7 @@ header img {
 
 .about-card img {
     position: relative;
-    align-self: flex-start;
+    align-self: center;
     width: 130px;
     height: 130px;
     object-fit: cover;
@@ -253,6 +256,7 @@ header img {
 .about-card {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     background: linear-gradient(135deg, var(--gris-carbon) 0%, var(--rojo-oscuro) 100%);
     color: var(--blanco-humo);
@@ -263,7 +267,6 @@ header img {
     min-width: 90vw;
     max-width: 600px;
     margin: 1rem;
-    font-family: "Segoe UI", "Poppins", sans-serif;
     line-height: 1.7;
 }
 
@@ -311,7 +314,7 @@ h3 {
     min-width: 90vw;
     max-width: 600px;
     margin: 1rem;
-    font-family: "Segoe UI", "Poppins", sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7;
 }
 
@@ -396,7 +399,7 @@ h3 {
     min-width: 90vw;
     max-width: 600px;
     margin: 1rem;
-    font-family: "Segoe UI", "Poppins", sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7;
     color: var(--light-text);
 }
@@ -451,8 +454,6 @@ h3 {
         box-shadow: 0 5px 15px rgba(198, 40, 40, 0.4);
     }
 }
-
-
 
 
 footer {
@@ -576,7 +577,6 @@ footer ul li:hover {
         flex-direction: column;
     }
 
-
     .container-class {
         display: flex;
         flex-direction: row;
@@ -596,7 +596,6 @@ footer ul li:hover {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        /* padding: 2rem 4rem; */
         grid-template-areas:
             "contacto info"
             "contacto redes"
